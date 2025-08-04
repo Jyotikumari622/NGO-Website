@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Volunteer Interest Form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container volunteer-form">
+
+    <h1>Volunteer Form</h1>
+    <p>Thank you for your interest in volunteering with us! Please fill out the form below to help us understand how you'd like to contribute.</p>
+
+    <form>
+        <div class="row">
+            <div class="col-half">
+                <label>Full Name (First)</label>
+                <input type="text" placeholder="First Name">
+            </div>
+            <div class="col-half">
+                <label>Full Name (Last)</label>
+                <input type="text" placeholder="Last Name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-half">
+                <label>Email Address</label>
+                <input type="email" placeholder="example@example.com">
+            </div>
+            <div class="col-half">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="(000) 000-0000">
+            </div>
+        </div>
+
+        <label>Address</label>
+        <input type="text" placeholder="Street Address">
+        <input type="text" placeholder="Street Address Line 2">
+
+        <div class="row">
+            <div class="col-half">
+                <input type="text" placeholder="City">
+            </div>
+            <div class="col-half">
+                <select>
+                    <option value="" disabled selected>Please Select State / Province</option>
+                    <option>State 1</option>
+                    <option>State 2</option>
+                    <option>State 3</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-half">
+                <input type="text" placeholder="Postal / Zip Code">
+            </div>
+            <div class="col-half">
+                <select>
+                    <option value="" disabled selected>Please Select Country</option>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Other</option>
+                </select>
+            </div>
+        </div>
+
+        <h3>Availability</h3>
+        <p>Please select the days you are available to volunteer.</p>
+
+        <div class="checkbox-group">
+            <label><input type="checkbox"> Monday</label>
+            <label><input type="checkbox"> Tuesday</label>
+            <label><input type="checkbox"> Wednesday</label>
+            <label><input type="checkbox"> Thursday</label>
+            <label><input type="checkbox"> Friday</label>
+            <label><input type="checkbox"> Saturday</label>
+            <label><input type="checkbox"> Sunday</label>
+        </div>
+
+        <label>Preferred Volunteer Role</label>
+        <select>
+            <option value="" disabled selected>Please Select</option>
+            <option>Event Support</option>
+            <option>Administrative Work</option>
+            <option>Fundraising</option>
+            <option>Other</option>
+        </select>
+
+        <h3>Skills and Experience</h3>
+        <label>Skills/Experience</label>
+        <textarea placeholder="Please list any relevant skills or experience..."></textarea>
+
+        <label>Why do you want to volunteer with us?</label>
+        <textarea placeholder="Your answer..."></textarea>
+
+        <h3>Emergency Contact Information</h3>
+
+        <div class="row">
+            <div class="col-half">
+                <label>Emergency Contact Name (First)</label>
+                <input type="text" placeholder="First Name">
+            </div>
+            <div class="col-half">
+                <label>Emergency Contact Name (Last)</label>
+                <input type="text" placeholder="Last Name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-half">
+                <label>Relationship</label>
+                <input type="text" placeholder="Relationship">
+            </div>
+            <div class="col-half">
+                <label>Emergency Contact Phone Number</label>
+                <input type="tel" placeholder="(000) 000-0000">
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    <a href="Index.html">Back to home</a>
+
+</div>
+
+</body>
+</html>

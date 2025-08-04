@@ -1,0 +1,235 @@
+/* index.html & about.html style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #e6f7ff;
+    color: #003344;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background-color: #00aaff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.4rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #dff6ff;
+}
+
+.section {
+    padding: 40px 0;
+}
+section img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0077aa;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-row img {
+    flex: 1;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flex-row .text {
+    flex: 2;
+}
+
+footer {
+    background-color: #d1f0ff;
+    text-align: center;
+    padding: 20px 0;
+    color: #004466;
+    font-size: 0.9rem;
+    border-top: 2px solid #99d9f2;
+}
+
+footer a {
+    color: #0077aa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .flex-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
+/* Volunteer Form */
+.volunteer-form {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 170, 255, 0.2);
+    max-width: 900px;
+}
+
+
+.volunteer-form h1,
+.volunteer-form h3 {
+    text-align: center;
+    color: #0077aa;
+    margin-bottom: 20px;
+}
+
+.volunteer-form p {
+    margin-bottom: 20px;
+}
+
+.volunteer-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.volunteer-form input[type="text"],
+.volunteer-form input[type="email"],
+.volunteer-form input[type="tel"],
+.volunteer-form select,
+.volunteer-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cce7f5;
+    border-radius: 6px;
+    background-color: #f9fcff;
+    font-size: 1rem;
+}
+
+.volunteer-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.volunteer-form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.volunteer-form .col-half {
+    flex: 1;
+    min-width: 240px;
+}
+
+.volunteer-form .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.volunteer-form .checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: normal;
+}
+
+.volunteer-form button[type="submit"] {
+    background-color: #0099cc;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.volunteer-form button[type="submit"]:hover {
+    background-color: #0077aa;
+}
+
+.volunteer-form a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #005577;
+    text-decoration: none;
+}
+
+.volunteer-form a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .volunteer-form .row {
+        flex-direction: column;
+    }
+
+    .volunteer-form {
+        padding: 20px;
+    }
+
+    .volunteer-form h1,
+    .volunteer-form h3 {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
